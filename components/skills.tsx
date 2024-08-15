@@ -21,7 +21,7 @@ const fadeInAnimationVariants = {
 };
 
 export default function Skills() {
-  const { ref } = useSectionInView("Becerilerim");
+  const { ref } = useSectionInView("Beceriler");
 
   return (
     <section
