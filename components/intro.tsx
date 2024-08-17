@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Merhaba, Ben Hüseyin.</span> Junior{" "}
-        <span className="font-bold">full-stack developer</span>'ım.{" "} 
+        <span className="font-bold">full-stack </span>yazılım geliştiricisiyim.{" "} 
         <span className="underline">Java Spring Boot</span>, 
         <span className="underline"> mikroservis mimarisi </span>
         ve {" "}
