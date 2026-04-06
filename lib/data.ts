@@ -50,7 +50,7 @@ export const experiencesData = [
     date: "07/2022 - 08/2022",
   },
   {
-    title: "Junior Java Developer",
+    title: "Java Developer",
     location: "Sugar Technology",
     description:
       "Spring boot frameworku ile backend alanında aldığım eğitim sonrasında mikroservis mimarisiyle sıfırdan crm projesi geliştirdik. Mikroservis oluşturma, gateway, mikroservisler arası iletişim gibi kıymetli tecrübeler kazandım.",
@@ -98,7 +98,7 @@ export const skillsData = [
   "Git",
   "Jenkins",
   "Docker",
-  "Bitbucker",
+  "Bitbucket",
   "Jira",
   "Nexus"
 ] as const; 
