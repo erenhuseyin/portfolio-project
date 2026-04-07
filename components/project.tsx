@@ -5,7 +5,10 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = Omit<(typeof projectsData)[number], "title" | "description"> & {
+  title: string;
+  description: string;
+};
 
 export default function Project({
   title,
